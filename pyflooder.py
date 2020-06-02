@@ -78,6 +78,7 @@ def attack():
         msg = "GET /%s HTTP/1.1\nHost: %s\n\n" % (url_path, host)
         byt = msg.encode()
         dos.send(byt)
+	#consider Exception as e -if you get error
     except socket.error:
         print ("\n [ No connection, server may be down ]: " + str(socket.error))
     finally:
