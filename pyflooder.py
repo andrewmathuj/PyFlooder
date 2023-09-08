@@ -49,7 +49,7 @@ def print_status():
     thread_num_mutex.acquire(True)
 
     thread_num += 1
-    print ("\n " + time.ctime().split(" ")[3] + " " + "[" + str(thread_num) + "] #-#-# Hold Your Tears #-#-#")
+    print ("\n " + time.ctime().split(" ")[3] + " " + "[" + str(thread_num) + "] #-#-# Hold Your Tears, Blasting requests -> -> ->  #-#-#")
 
     thread_num_mutex.release()
 
