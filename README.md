@@ -9,3 +9,5 @@ It generates a configurable number of random GET requests and sends them to the 
 ```
 pyflooder.py < Hostname > < Port > < Number_of_Attacks >
 ```
+
+Contributions are welcome
